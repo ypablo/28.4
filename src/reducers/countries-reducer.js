@@ -1,9 +1,7 @@
 import { GET_COUNTRIES } from '../actions/actions-countries';
 import countriesData from '../data/countries.json';
 
-const initialState = {
-    countriesData: []
-};
+const initialState = [];
 
 const countriesReducer = function (state = initialState, action) {
     switch (action.type) {

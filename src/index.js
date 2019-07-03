@@ -21,7 +21,7 @@ render(
 
 render(
     <Provider store={store}>
-    <div>
+    <div className="">
         <Router history={hashHistory}/>
         <h1>Project</h1>
             <DevTools />
